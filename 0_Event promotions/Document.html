@@ -6,33 +6,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-          
-            #menu-container{
+            .area{
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start ;
+            }
+            .menu-container{
              display: flex;
-             width: 1174px;
+             width: 1176px;
              height: 59px;
              justify-content: space-around;
-          
             }
             #left{
                 display: flex;
                 width: 255px;
                 height: 59px;
                 justify-content: space-around;
-                margin-left: 50px;
+                
             }
+          
            
-        
-            #title{
+            .title{
                 text-align: center;
             }
-            #first-container{
-                display: flex;
+            .content-container{
+                display: flex;               
                 width: 1176px;
                 height: 300px;
-                justify-content: space-around ;
+                flex-direction: column;
+                justify-content: flex-start ;
                 margin-left: 135px;
               
+            }
+            #content-container1{
+                display: flex;
+                
             }
             #item2{
                 display: flex;
@@ -42,18 +50,44 @@
                 margin-left: 70px;
                
             }
+            #content-container2{
+                display: flex;
+                margin-top: 51px;
+                margin-bottom: 51px;
+            }
+            #item3{
+                display: flex;
+                flex-direction: column;
+                width: 620px;
+                height: 304px;
+                margin-left: 70px;
+               
+            }
+            #content-container{
+                
+                display: flex;
+            }
+            #item5{
+                position: absolute;
+            }
+            #item6{
+                 display: flex;
+                 position: absolute;     
+                 left: 800px;         
+                flex-direction: column;
+            }
         </style>
     </head>
     <body>
-       <div id="area">
-            <div id="menu-container">
+       <div class="area">
+            <div class="menu-container">
                 <div id="left">
                    <div>Shop</div>
                    <div>Offers</div>
                    <div>Our story</div>
                    <div>Blog</div>
                 </div>
-                <div id="middle">
+                <div id="logo">
                     <img src="Logo.png" alt="Logo" >
                 </div>
                 <div id="right">
@@ -62,27 +96,63 @@
                    <img src="Avatar.png" align="middle">
                 </div>
             </div>
-            <div id="title"> 
+            <div class="title"> 
                 <h1>Promotions </h1>
             </div>
-            <div id="first-container">
-                <div id="item1">
-                    <img src="Image(1).png" width="557px" height="299px">
+            <div class="content-container">
+                <div id="content-container1">
+                    <div id="item1">
+                        <img src="Image(1).png" width="557px" height="299px">
+                    </div>
+                    <div id="item2">
+                        <div>
+                            <h1>Promotion title</h1>
+                        </div>
+                        <div>
+                            <p> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
+                        </div>
+                        <div>
+                            <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
+                        </div>
+                        <div>
+                            <input type="submit" value="Shop now">
+                        </div>
+                    </div>
+                </div>               
+                <div id="content-container2">
+                    <div id="item3">
+                            <div>
+                                <h1>Promotion title</h1>
+                            </div>
+                            <div>
+                                <p> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
+                            </div>
+                            <div>
+                                <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
+                            </div>
+                            <div>
+                                <input type="submit" value="Shop now">
+                            </div>
+                    </div>
+                    <div id="item4">
+                             <img src="Image(2).png" width="557px" height="299px" >
+                    </div>
+                </div> 
+                <div id="content-container3">
+                    <div id="item5">
+                        <img src="Image(3).png" width="1176px" height="363px" >
+                    </div>
+                    <div id="item6">
+                        <h1>Gift for your skin</h1>
+                        <p>Enim officia magana ut ese aliquuip iure<br>consectetur dolor commodo et.Cupid</p>
+                        <input type="submit" value="Shop now" >
+                   </div>
+                  
                 </div>
-                <div id="item2">
-                    <div>
-                        <h1>Promotion title</h1>
-                    </div>
-                    <div>
-                        <p> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
-                    </div>
-                    <div>
-                        <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
-                    </div>
-                    <div>
-                        <input type="submit" value="Shop now">
-                    </div>
-                </div>
+               
+                        
+               
+                    
             </div>
        </div>
     
