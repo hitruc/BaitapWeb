@@ -52,6 +52,10 @@
                 margin-left: 135px;
               
             }
+            .promo{
+                font-family:'Lucida Sans' ;
+                font-size: 30px;
+            }
             
             #content-container1{
                 display: flex;
@@ -92,7 +96,7 @@
             }                           
             #item6{
                  display: flex; 
-                 margin-right: 200px;         
+                 margin-right: 100px;         
                 flex-direction: column;
             }
             .footer-container{
@@ -119,6 +123,14 @@
             #Cot3{
                 line-height: 30px;
             }
+            #gift{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 50px;
+            }
+            .text{
+                font-size: 20px;
+                color: rgb(79, 70, 70);
+            }
             #footer-right{
                 display:flex;
                 flex-direction: column;
@@ -126,6 +138,10 @@
                 margin-left: 270px;
                 line-height: 25px;
               
+            }
+            #Receive{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
             }
            #input{
             display:flex;
@@ -193,13 +209,13 @@
                     </div>
                     <div id="item2">
                         <div>
-                            <h1>Promotion title</h1>
+                            <h1 class="promo">Promotion title</h1>
                         </div>
                         <div>
-                            <p> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
+                            <p class="text"> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
                         </div>
                         <div>
-                            <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
+                            <p class="text"><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
                         </div>
                         <div >
                             <input class="submit" type="submit" value="Shop now" >
@@ -209,13 +225,13 @@
                 <div id="content-container2">
                     <div id="item3">
                             <div>
-                                <h1>Promotion title</h1>
+                                <h1 class="promo">Promotion title</h1>
                             </div>
                             <div>
-                                <p> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
+                                <p class="text"> Et ipsum irure amet cupidatat mollit exercitation<br> consequat duis aliquip. Reprehenderit Lorem<br>veniam pariatur esse pariatur in aute tempor au </p>
                             </div>
                             <div>
-                                <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
+                                <p class="text"><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
                             </div>
                             <div>
                                 <input class="submit" type="submit" value="Shop now">
@@ -227,8 +243,8 @@
                 </div> 
                 <div id="content-container3"> 
                     <div id="item6">
-                        <h1>Gift for your skin</h1>
-                        <p>Enim officia magana ut ese aliquuip iure<br>consectetur dolor commodo et.Cupid</p>
+                        <h1 id="gift">Gift for your skin</h1>
+                        <p class="text">Enim officia magana ut ese aliquuip iure<br>consectetur dolor commodo et.Cupid</p>
                         <input class="submit" type="submit" value="Shop now" >
                    </div>
                 </div>
@@ -265,7 +281,7 @@
                    </div>
                 </div>
                 <div id="footer-right">
-                    <div><h1>Receive new promotions</h1></div>
+                    <div id="Receive"><h1>Receive new promotions</h1></div>
                     <div>Duis ea tempor commodo amet reprehende</div>
                     <form id="input">
                         <input type="text" id="mail" placeholder="Input your email">
