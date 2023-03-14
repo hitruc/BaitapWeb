@@ -6,11 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            .area{
-                display: flex;
-                flex-direction: column;
-                justify-content:flex-start ;
-            }
+          
             .menu-container{
              display: flex;
              width: 1176px;
@@ -32,7 +28,7 @@
             .content-container{
                 display: flex;               
                 width: 1176px;
-                height: 300px;
+               
                 flex-direction: column;
                 justify-content: flex-start ;
                 margin-left: 135px;
@@ -63,30 +59,51 @@
                 margin-left: 70px;
                
             }
-            #content-container{
+            #content-container3{
                 
                 display: flex;
-            }
-            #item5{
-                position: absolute;
-            }
+                background-image: url(Image\(3\).png);
+                background-size: 100% 100%;
+                width: 1170px;
+                height: 365px;
+                margin-bottom: 50px;
+                justify-content: right;
+                align-items: center;
+            
+            }                           
             #item6{
-                 display: flex;
-                 position: absolute;     
-                 left: 800px;         
+                 display: flex; 
+                 margin-right: 200px;         
                 flex-direction: column;
             }
             .footer-container{
-                display:flex;
-            }
-            #About{
                 display: flex;
-                flex-direction: column;
+                width: 1439px;
+                height: 435px;
+                background-color:aliceblue ;
+           
             }
+            #footer-left{
+                display: flex;
+                margin-top: 98px;
+                margin-left: 132px;
+            }
+            #Cot1{
+                margin-right: 50px;
+                line-height: 30px;
+            }
+            #Cot2{
+                margin-right: 50px;
+                line-height: 30px;
+            }
+            #Cot3{
+                line-height: 30px;
+            }
+          
         </style>
     </head>
     <body>
-       <div class="area">
+      
             <div class="menu-container">
                 <div id="left">
                    <div>Shop</div>
@@ -121,8 +138,8 @@
                         <div>
                             <p><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
                         </div>
-                        <div>
-                            <input type="submit" value="Shop now">
+                        <div >
+                            <input type="submit" value="Shop now" >
                         </div>
                     </div>
                 </div>               
@@ -142,56 +159,60 @@
                             </div>
                     </div>
                     <div id="item4">
-                             <img src="Image(2).png" width="557px" height="299px" >
+                             <img src="Image(2).png" width="557px" height="299px" >                  
                     </div>
                 </div> 
-                <div id="content-container3">
-                    <div id="item5">
-                        <img src="Image(3).png" width="1176px" height="363px" >
-                    </div>
+                <div id="content-container3"> 
                     <div id="item6">
                         <h1>Gift for your skin</h1>
                         <p>Enim officia magana ut ese aliquuip iure<br>consectetur dolor commodo et.Cupid</p>
                         <input type="submit" value="Shop now" >
                    </div>
-                  
-                </div>
-            <div class="footer-container">
-                <div id="About">
-                    <div><u>About</u></div>
-                    <div>Home</div>
-                    <div>Shop</div>
-                    <div>Our story</div>
-                    <div>Blogs</div>
-                    <div><Select><option>English</option></Select> </div>
-
-                </div>
-                <div id="Help">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div id="contact">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div id="input">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
                 </div>
             </div>
+            <div class="footer-container">
+                <div id="footer-left">
+                   <div id="Cot1">
+                        <ul id="item7" type="none" >
+                            <li><h1>About</h1></li>
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>Our story</li>
+                            <li>Blogs</li>
+                            <select><option>English</option></select>
+                        </ul> 
+                   </div>
+                   <div id="Cot2">
+                        <ul type="none">
+                            <li><h1>Help</h1></li>
+                            <li>Shipping & Returns</li>
+                            <li>Track Oder</li>
+                            <li>FAQs</li>
+                        </ul>
+                   </div>
+                   <div id="Cot3">
+                        <ul type="none">
+                            <li><h1>Contact</h1></li>
+                            <li>Phone:</li>
+                            <li><b>(+1)123 456 7893</b></li>
+                            <li>Email:</li>
+                            <li><b>name@email.com</b></li>
+                        </ul>
+
+                   </div>
+                </div>
+                <div id="footer-right">
+
+                </div>
+
+            </div>  
+       
+         
+                
+       
+        </div>    
                
                         
                
                     
-            </div>
-       </div>
-    
     </body>
