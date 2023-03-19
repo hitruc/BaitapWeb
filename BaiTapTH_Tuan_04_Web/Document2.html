@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #grid-container{
+        display: grid;
+        grid-template-columns: 150px 835px 475px;
+        grid-template-rows: 850px 850px 850px;
+        gap: 30px;
+    }
+    #gird-left{
+      
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content:space-around;
+    }
+    .gird-left-above{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    #grid-middle{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    #grid-middle-above{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    #title{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #time{
+        margin-left: auto;
+    }
+    #internal{
+        display: flex;
+        
+    }
+    #grid-middle-center{
+       width: 835px;
+       height: 460px;
+       margin-bottom: 20px;
+    }
+    #grid-middle-below{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    #grid-middle-end{
+        display: flex;
+        justify-content: center;
+    }
+    #grid-right{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    #grid-right-above{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        
+    }
+    #participants{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    #add{
+        margin-left: auto;
+    }
+    #content{
+        display: flex;
+       line-height: 30px;
+      
+    }
+    #grid-right-above-left{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        height: 30px;
+        justify-content: space-between;
+    }
+    #grid-right-above-middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #grid-right-above-right{
+        display: flex;
+        flex-direction: column;
+      margin-left: auto;
+    }
+    #grid-right-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    #content2{
+        display: flex;
+        flex-direction: row;
+    }
+    #grid-right-bottom-left{
+        display: flex;
+        flex-direction: column;
+    }
+    #grid-right-bottom-right{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+    
+</style>
+<body>
+    <div id="grid-container">
+        <div id="gird-left">
+            <div class="gird-left-above">
+                <div><img src="logo.png"></div>
+                <div><img src="home.png"></div>
+                <div><img src="chatting.png"></div>
+                <div><img src="calender.png"></div>
+                <div><img src="cam.png"></div>
+                <div><img src="user.png"></div>
+            </div>
+            <div id="gird-left-below">
+                <div><img src="avatar.png"></div>
+                <div><img src="setting.png"></div>
+            </div>
+        </div>
+        <div id="grid-middle">
+            <div id="grid-middle-above">
+                <div id="title">
+                    <div><h1>Meeting title</h1></div>
+                    <button id="time">12:00</button>
+                </div>
+                <div id="internal">
+                    <button>Internal</button>
+                    <button>Sep 02.2022</button>
+                    <button>08:00 - 09:00 AM</button>
+                </div>
+            </div>
+            <div id="grid-middle-center">
+                <img id="center" src="img_big.png">
+            </div>   
+            <div id="grid-middle-below">
+                <img src="img2.png">
+                <img src="img1.png">
+                <img src="img.png">
+            </div>
+            <div id="grid-middle-end">
+                <img src="mic_grey_color.png">
+                <img src="cam_color.png">
+                <img src="speaker_grey_color.png">
+                <img src="Button 2179.png">
+                <img src="share.png">
+                <img src="....png">
+            </div>
+        </div>
+        <div id="grid-right">
+            <div id="grid-right-above">
+                <div id="participants">
+                    <h1>Participants</h1>
+                    <button id="add">+ Add</button>
+                </div>
+                <div id="content1">
+                    <div id="grid-right-above-left">
+                        <img src="avatar 1322.png">
+                        <img src="avatar 1323.png">
+                        <img src="avatar 1326.png">
+                        <img src="avatar 1327.png">
+                    </div>
+                    <div id="grid-right-above-middle">
+                        <div>Benjamin Crawford</div>
+                        <div>Christian Scott</div>
+                        <div>Deborah Chu</div>
+                        <div>Jordan Nieves</div>
+
+                    </div>
+                    <div id="grid-right-above-right">
+                        <div >
+                            <img src="mic1.png">
+                            <img src="cam_small.png">
+                            <img src="....png">
+                        </div>
+                        <div  >
+                            <img src="mic1.png">
+                            <img src="cam_small.png">
+                            <img src="....png">
+                        </div>
+                        <div  >
+                            <img src="mic2.png">
+                            <img src="cam_small.png">
+                            <img src="....png">
+                        </div>
+                        <div >
+                            <img src="mic1.png">
+                            <img src="cam_small.png">
+                            <img src="....png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="grid-right-bottom">
+                <div id="chat">
+                    <h1 >Chat</h1>
+                </div>
+                <div id="content2">
+                    <div id="grid-right-bottom-left">
+                        <img src="avatar 1322.png">
+                        <img src="avatar 1323.png">
+                        <img src="avatar 1326.png">
+                        <img src="avatar 1327.png">
+                    </div>
+                    <div id="grid-right-bottom-right">
+                        <div>Benjamin Crawford</div>
+                        <div>Christian Scott</div>
+                        <div>Deborah Chu</div>
+                        <div>Jordan Nieves</div>
+
+                    </div>
+                   
+                </div>
+                <div id="footer">
+                    <button>Adding</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
