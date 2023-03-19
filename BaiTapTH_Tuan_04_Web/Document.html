@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <style>
+    #container{
+        display: flex;
+        flex-direction: row;
+        width: 1440px;
+    }
     #left{
         display: flex;
         flex-direction: column;
@@ -20,15 +25,46 @@
     #left-above{
         display: flex;
         flex-direction: column;
-       margin-bottom: 200px;
+        margin-bottom: 200px;
         line-height: 80px;
-        
-
     }
     #img-left{
         width: 40px;
         height: 40px;
     }
+    #middle{
+        display: flex;
+        margin-left: 50px;
+        width: 900px;
+        background-color: antiquewhite;
+    }
+    #middle-above{
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        justify-content: flex-start;
+        
+    }
+    #middle-left{
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 30px;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    #middle-right{
+       
+        margin-top: 40px;
+      
+    }
+    #right{
+        margin-left: 20px;
+        width: 440px ;
+        background-color:blanchedalmond;
+    }
+  
 </style>
 <body>
     <div id="container">
@@ -45,6 +81,28 @@
                 <div><img class="img-left" src="avatar.png"></div>
                 <div><img class="img-left" src="setting.png"></div>
             </div>
+        </div>
+        <div id="middle">
+            <div id="middle-above">
+                <div id="middle-left"> 
+                    <div id="middle-left1>
+                        <p id="meeting"><b>Meeting title</b></p>
+                    </div>
+                    <div id="middle-left2">
+                        <button id="internal">Internal</button>
+                        <img id="calender-small" src="calender_small.png">
+                        <button id="date" >Step 02.2022</button>
+                        <button id="time">08.00 - 09.00AM</button>
+                    
+                    </div>
+                </div>
+                <div id="middle-right">
+                    <button>12:00</button>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+                right
         </div>
     </div>
 </body>
