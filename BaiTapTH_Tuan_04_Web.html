@@ -56,7 +56,7 @@
     
     #line-second{
         display: flex;
-        width: 360px
+        width: 360px;
         justify-content: space-around;
         
     }
@@ -107,10 +107,20 @@
     }
     #add{
         margin-left: auto;
+        border-radius: 80px;
+        width:100px;
+        height: 50px;
+        margin-top: 20px;
+        border-color: pink;
+        background-color: white;
+        color:pink:
     }
     #content{
         display: flex;
        line-height: 30px;
+       width:423px;
+       height:212px;
+       justify-content: space-around;
       
     }
     #grid-right-above-left{
@@ -119,11 +129,16 @@
         width: 30px;
         height: 30px;
         justify-content: space-between;
+        line-height: 30px;
+        margin-top:5px
     }
     #grid-right-above-middle{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin-left: 50px;
+        line-height: 30px;
+        margin-top:5px
     }
     #grid-right-above-right{
         display: flex;
@@ -142,10 +157,40 @@
         display: flex;
         flex-direction: column;
     }
+    #Ben{
+        margin-bottom: 50px;
+    }
+    #one{
+        margin-left:20px;
+    }
+    #comment1{
+        background-color: aliceblue;
+    }
+    #Chris{
+        margin-bottom: 50px;
+    }
+    #two{
+        margin-left:20px;
+    }
+    #comment2{
+        background-color: aliceblue;
+    }
+   
     #grid-right-bottom-right{
         display: flex;
         flex-direction: column;
         line-height: 30px;
+    }
+    #adding{
+        width: 330px;
+        height:30px;
+        border-color:rgb(243, 239, 239);
+        background-color: rgb(210, 209, 209);
+
+    }
+    #footer{
+        display:flex;
+        
     }
     
 </style>
@@ -244,14 +289,20 @@
                 </div>
                 <div id="content2">
                     <div id="grid-right-bottom-left">
-                        <img src="Bases\BaiTapTH_Tuan_04_Web\avatar 1322.png">
-                        <img src="Bases\BaiTapTH_Tuan_04_Web\avatar 1323.png">
-                        <img src="Bases\BaiTapTH_Tuan_04_Web\avatar 1326.png">
-                        <img src="Bases\BaiTapTH_Tuan_04_Web\avatar 1327.png">
+                        <img id="Ben"src="Bases\BaiTapTH_Tuan_04_Web\avatar 1322.png">
+                        <img id="Chris"src="Bases\BaiTapTH_Tuan_04_Web\avatar 1323.png">
+                        <img id="Deb" src="Bases\BaiTapTH_Tuan_04_Web\avatar 1326.png">
+                        <img id="Jor" src="Bases\BaiTapTH_Tuan_04_Web\avatar 1327.png">
                     </div>
                     <div id="grid-right-bottom-right">
-                        <div>Benjamin Crawford</div>
-                        <div>Christian Scott</div>
+                        <div id="one">
+                            <div><b>Benjamin Crawford</b></div>
+                            <div id="comment1">Lorem excepteur magna voluptate exercitation dolore exercitation amet </div>
+                        </div>
+                        <div id="two">
+                            <div><b>Christian Scott</b></div>
+                            <div id="comment2">Eiusmod laborum culpa est magna cillum sint in  elit proident magna anim consecte </div>
+                        </div>
                         <div>Deborah Chu</div>
                         <div>Jordan Nieves</div>
 
@@ -259,7 +310,8 @@
                    
                 </div>
                 <div id="footer">
-                    <button>Adding</button>
+                    <input id="adding" type="text" placeholder="Adding" ></input>
+                    <img src="Bases\BaiTapTH_Tuan_04_Web\send.png">
                 </div>
             </div>
         </div>
