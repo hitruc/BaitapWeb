@@ -41,18 +41,40 @@
         display: flex;
         flex-direction: row;
         
+        
     }
     #time{
         margin-left: auto;
-        width: 75px ;
-        height: 30px;
+        width:100px;
+        height: 50px;
         border-radius: 50px;
-        border-color: red;
         background-color: white;
+        border-radius: 50px;
+        border-color:red;
+        margin-top: 20px;
+    }
+    
+    #line-second{
+        display: flex;
+        width: 360px
+        justify-content: space-around;
+        
     }
     #internal{
-        display: flex;
-        
+        border-radius: 50px;
+        background-color: rgb(224, 26, 125);
+        border-color:white;
+        color:white ;
+    }
+    #date{
+        border-radius: 50px;
+        background-color: white;
+        border-color:white;
+    }
+    #hours{
+        border-radius: 50px;
+        background-color: white;
+        border-color: white;
     }
     #grid-middle-center{
        width: 835px;
@@ -106,7 +128,7 @@
     #grid-right-above-right{
         display: flex;
         flex-direction: column;
-      margin-left: auto;
+        margin-left: auto;
     }
     #grid-right-bottom{
         display: flex;
@@ -149,10 +171,10 @@
                     <div><h1>Meeting title</h1></div>
                     <button id="time">12:00</button>
                 </div>
-                <div id="internal">
-                    <button>Internal</button>
-                    <button>Sep 02.2022</button>
-                    <button>08:00 - 09:00 AM</button>
+                <div id="line-second">
+                    <button id="internal">Internal</button>
+                    <button id="date">Sep 02.2022</button>
+                    <button id="hours">08:00 - 09:00 AM</button>
                 </div>
             </div>
             <div id="grid-middle-center">
