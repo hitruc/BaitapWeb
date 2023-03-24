@@ -1,0 +1,166 @@
+#flex-container{
+    display:flex;
+    flex-direction: column;
+}
+#menu{
+    display: flex;
+    width: 1446px;
+    height: 80px ;
+    flex-direction: row;
+   
+}
+#menu-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+#container1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#container1-line1{
+   
+}
+#container1-line2{
+  
+}
+#container1-line3{
+    display: flex;
+    flex-direction: row;
+}
+#container1-line3-left{
+    display: flex;
+    flex-direction: row;
+  
+}
+#container1-line3-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+ 
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+#container2-left{
+
+}
+#container2-middle{
+    display: flex;
+    flex-direction: column;
+}
+#container2-right{
+    display: flex;
+    flex-direction: column;
+
+}
+#container3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+#container3-left{
+    display: flex;
+    flex-direction: column;
+}
+#container3-left-bottom{
+    display: flex;
+    flex-direction: row;
+}
+#container3-left-bottom-col1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+#freedelivery{
+    display: flex;
+    flex-direction: row;
+}
+#madeinusa{
+    display: flex;
+    flex-direction: row;
+}
+#authentic{
+    display: flex;
+    flex-direction: row;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+}
+#container3-right{
+    margin-left: 70px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#total{
+    display: flex;
+    flex-direction: row;
+}
+#container4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#container4-reviews{
+    display: flex;
+    flex-direction: row;
+}
+#show{
+    margin-left: 500px;
+}
+#container4-comments{
+    display: flex;
+    flex-direction: row;
+}
+#container4-comments-left{
+    display: flex;
+    flex-direction: column;
+}
+#container4-comments-left-name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+#container4-comments-left-rate{
+    margin-left: 50px;
+}
+#container4-comments-left-cmt{
+    margin-left: 50px;
+}
+#container5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#container5-title{
+    display: flex;
+    flex-direction: row;
+}
+#container5-rate{
+    display: flex;
+    flex-direction: row;
+}
+#container6{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
