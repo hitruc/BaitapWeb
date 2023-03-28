@@ -200,6 +200,7 @@
     background-color: rgb(237, 232, 232) ;
     border-radius: 2px;
     padding-left: 10px;
+   
 }
 #size{
     border-radius: 0%;
@@ -251,6 +252,7 @@
     flex-direction: column;
     margin-left: 50px;
     margin-top: 50px;
+    border-top: 2px solid rgb(244, 243, 243);
 }
 #container4-reviews{
     display: flex;
@@ -265,6 +267,9 @@
     width: 277px ;
  
   
+}
+#container4-reviews-lef-review{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #container4-reviews-left-icon{
     display: flex;
@@ -309,7 +314,7 @@
 }
 .container4-comments-cmt{
      margin-top: 10px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #container4-comments-left-bottom{
     display: flex;
@@ -319,7 +324,7 @@
 #container4-comments-right{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #container4-comments-right-above{
     display: flex;
@@ -333,15 +338,64 @@
 #container5{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-top: 50px;
+    border-top: 2px solid rgb(244, 243, 243);
 }
 #container5-title{
     display: flex;
     flex-direction: row;
+    
 }
-#container5-rate{
+#container5-title-related{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+#see{
+    margin-left: 800px;
+    margin-top: 30px;
+    color: rgb(165, 164, 164);
+    
+}
+#container5-content{
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+   
+    height: 354px;
+}
+#container5-rate1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 5px;
+}
+#container5-rate1-below{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+}
+#container5-rate1-below-title{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+#rate-heart{
+    margin-left: 170px;
+}
+#price{
+    color: aqua;
+    font-size: larger;
+}
+#container5-rate1-below-final{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#container5-rate1-below-final-right{
+   margin-left: 100px;
 }
 #container6{
     display:flex;
@@ -349,21 +403,50 @@
     justify-content: center;
     width: 1464px;
     height: 617px;
-    margin-left: 300px;
+    
+   
 }
 #logo{
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 80px;
+    
+    margin-left: 500px;
+}
+#container6 b{
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    size: 20px;
+    margin-left: 450px;
 }
 #inputmail{
     width: 267px;
+    border-style: hidden;
+    background-color: rgb(204, 202, 202)
+    margin-left: 450px;
+}
+#subcribe{
+    border-style: hidden;
+    background-color: rgb(14, 148, 225);
+    color: white;
+   
 }
 #button{
     display: flex;
     flex-direction: row;
+    margin-left: 140px;
+    margin-left: 450px;
 }
 #footer{
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    margin-left: 100px;
+}
+#Col1{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 20px;
+   
 }
