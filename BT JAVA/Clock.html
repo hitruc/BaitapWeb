@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #time{
+        display: flex;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 500px;
+        justify-content: space-between;
+
+    }
+    #buttons{
+        display: flex;
+        width: 200px;
+        margin-left: 400px;
+        justify-content: space-between;
+      
+
+    }
+    .bt{
+   
+        border-radius: 5px;
+        margin: 50px;
+    }
+    #start{
+        background-color: green;
+    }
+    #stop{
+        background-color: red;
+    }
+    #reset{
+        background-color: yellow;
+    }
+</style>
 <body>
-    <button id="demo">
-        Star
-    </button>
+<div id="container">
+    <div id="time">
+        <span class="digit" id="hr">
+          00</span>
+        <span class="txt">Hr</span>
+        <span class="digit" id="min">
+          00</span>
+        <span class="txt">Min</span>
+        <span class="digit" id="sec">
+          00</span>
+        <span class="txt">Sec</span>
+        <span class="digit" id="count">
+          00</span>
+    </div>
+    <div id="buttons">
+        <button class="bt" id="start">
+                Start
+        </button>
+        <button class="bt" id="stop">
+                Stop
+        </button>
+        <button class="bt" id="reset">
+                Reset
+        </button>
+       
+    </div>
+</div>
 </body>
 </html>
 <script>
+    var btstar= document.getElementById('start');
+    var btstop=document.getElementById('stop');
+    var btreset=document.getElementById('reset');
+    var timer;
+    var hour = 00;
+    var minute = 00;
+    var second = 00;
+    var count = 00; 
+
+    btstar.onclick = () => {
+        clearInterval=(timer);
+        timer=setInterval(timerid,10);
+    }
+    
+    btstop.onclick = () => {
+        clearInterval=(timer);
+    }
+
+    btreset.onclick = () => {
+        clearInterval=(timer);
+    }
+    
+    function timerid(){
+        count+=10;
+        if(count == 1000){
+            count = 0;
+            second ++;
+            if (second == 60){
+                second = 0;
+                minute++;
+                if(minute == 60){
+                    minute = 0;
+                    hours++;
+                }
+            }
+        }
+    }
+
+    var h=hour;
+    var m=minute;
+    var s=second;
+    var c=count;
+
+    if (hour <10){
+        h = '0' + h;
+    }
+    
+    if (minute <10){
+        m = '0' + m;
+    }
+    
+    if (second <10){
+        s = '0' + s;
+    }
+    
+    if (c <10){
+        c = '0' + c;
+    }
+    
+    h=document.getElementById('hr').innerHTML;
+    m=document.getElementById('m').innerHTML;
+    s=document.getElementById('s').innerHTML;
+    c=document.getElementById('c').innerHTML;
+
+    // function timerid(){
+    //     if (timer) {
+    //     count++;
+  
+    //     if (count == 100) {
+    //         second++;
+    //         count = 0;
+    //     }
+  
+    //     if (second == 60) {
+    //         minute++;
+    //         second = 0;
+    //     }
+  
+    //     if (minute == 60) {
+    //         hour++;
+    //         minute = 0;
+    //         second = 0;
+    //     }
+    // }
+       
+        
+    
+
+
     // var demo=document.getElementById('demo');
     // setInterval((myTimer)=>{
     //     console.log(demo);
@@ -15,8 +171,8 @@
     // function myTimer() {
     // var d = new Date;
 
-    // //demo= onclick=function(){
-    //     //alert('click')
+    // demo= onclick=function(){
+    //     alert('click')
     // };
 
     
