@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="CSS/BaiTap_TH_Tuan_05_Web.css">
+    <link rel="stylesheet" type="text/css" href="CSS/BaiTap_TH_Tuan_05_Web.css">\
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div id="flex-container">
@@ -24,7 +27,8 @@
                 </div>
                 <div id="menu-right">
                     <div>
-                        <input id="search" type="text" placeholder="Search..."></input>  
+                         <!-- <input id="search" type="text" placeholder="Search..."></input>   -->
+                        <input type="text" class="form-control" placeholder="Search..">
                     </div>
                     <div>
                         <img src="Bases/BaiTap_TH_Tuan_05_Web/Bell 1.png">
@@ -108,16 +112,23 @@
                 </div>
             </div>
             <div id="container3-right">
-                <form class="form">
+                <!-- <form class="form">
                    <select id="color"><option>Color</option></select>
                    <select id="size"><option>Size</option></select>
                    <select id="number"><option>3</option></select>            
-                </form>
+                </form> -->
+                <div class="select">
+                    <select class="form-control" id="color"><option>Color</option></select>
+                    <select class="form-control" id="size"><option>Size</option></select>
+                    <select class="form-control" id="number"><option>3</option></select>
+                </div>
                 <div id="total">
                     <div>Total $265</div>
                 </div>
-                <button id="buynow">Buy now</button>
-                <button id="cart"> <img src="Bases/BaiTap_TH_Tuan_05_Web/Shopping cart simple 1.png" width="20px" height="20px"> Add to cart</button>
+                <!-- <button id="buynow">Buy now</button> -->
+                <button class="btn btn-info">Buy now</button>
+                <!-- <button id="cart"> <img src="Bases/BaiTap_TH_Tuan_05_Web/Shopping cart simple 1.png" width="20px" height="20px"> Add to cart</button> -->
+                <button class="btn" id="addtocart"><img src="Bases/BaiTap_TH_Tuan_05_Web/Shopping cart simple 1.png" width="20px" height="20px">Add to cart</button>
             </div>
         </div>
         <div id="container4">
@@ -287,8 +298,10 @@
             <img id="logo" src="Bases/BaiTap_TH_Tuan_05_Web/Image 1713.png">
             <b>Subscribe to our newsletter</b>
             <div id="button">
-                <input id="inputmail" type="text" placeholder="Input your email">
-                <button id="subcribe">Subcribe</button>
+                <!-- <input id="inputmail" type="text" placeholder="Input your email">
+                <button id="subcribe">Subcribe</button> -->
+                <input class="form-control" id="inputmail" placeholder="Input your email">
+                <button class="btn-primary" id="subcribe">Subcribe</button>
             </div>
             <div id="footer">
                     <div id="Col1">
